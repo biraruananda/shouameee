@@ -14,9 +14,11 @@
   --shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.35);
 }
 
+
+
 html {
   min-height: 100%;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 body {
