@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ShouAmeee's personal information and art links." />
+
+  <meta property="og:site_name" content="ShouAmeee - 小雨" />
+  <meta property="og:title" content="ShouAmeee - 小雨" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="Illustrator from Indonesia. Tomboy characters, moe girls, and casual anime-style artworks." />
+  <meta property="og:image" content="images/card.jpg" />
+  <meta property="og:url" content="https://shouameee.carrd.co" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <title>ShouAmeee - 小雨</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Source+Sans+3:wght@300;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="preloader" aria-hidden="true">
+    <span class="preloader__dot"></span>
+  </div>
+
+  <main class="page-shell">
+    <section class="profile-card view view--active" id="home" aria-labelledby="home-title">
+      <a class="avatar-link" href="https://www.pixiv.net/en/users/70731567" aria-label="Open ShouAmeee Pixiv">
+        <img class="avatar" src="images/image01.jpg" alt="ShouAmeee profile picture" />
+        <span class="avatar-fallback">小雨</span>
+      </a>
+
+      <div class="intro">
+        <p class="eyebrow">Illustrator</p>
+        <h1 id="home-title">ShouAmeee - 小雨</h1>
+        <p>
+          Illustrator from Indonesia. Love drawing tomboy characters and moe girls.
+          Mostly focused on original characters and casual anime-style artworks.
+        </p>
+      </div>
+
+      <nav class="link-panel" aria-label="Main links" target="_blank">
+        <a class="link-button" href="https://www.pixiv.net/en/users/70731567">
+          <span>Pixiv</span>
+          <small>Main Portfolio</small>
+
+          <img class="button-icon" src="icons/pixiv.png" alt="Pixiv icon">
+        </a>
+
+        <a class="link-button" href="https://vgen.co/ShouAmeee">
+          <span>VGen</span>
+          <small>Commission</small>
+          <img class="button-icon" src="icons/vgen.png" alt="VGen icon">
+
+
+        </a>
+
+        <a class="link-button" href="https://x.com/ShouAmeee">
+          <span>X / Twitter</span>
+          <small>Social Media</small>
+          <img class="button-icon" src="icons/x.png" alt="X / Twitter icon">
+        </a>
+
+        <a class="link-button" href="https://www.instagram.com/shouameee/">
+          <span>Instagram</span>
+          <small>Secondary Portfolio</small>
+          <img class="button-icon" src="icons/instagram.png" alt="Instagram icon">
+        </a>
+      </nav>
+
+      <button class="secret-toggle" type="button" data-target="secret" aria-expanded="false">
+        Little Secret
+      </button>
+    </section>
+
+    <section class="profile-card view" id="secret" aria-labelledby="secret-title" hidden>
+      <div class="intro intro--secret">
+        <p class="eyebrow">Hidden Gallery</p>
+        <h2 id="secret-title">Makako San</h2>
+        <p>My little hidden gallery. Great, you found this out.</p>
+      </div>
+
+      <nav class="link-panel" aria-label="Hidden gallery links">
+        <a class="link-button" href="https://www.pixiv.net/en/users/111918825">
+          <span>Pixiv</span>
+          <small>Main Portfolio</small>
+        </a>
+
+        <a class="link-button" href="https://makakokyun.fanbox.cc/">
+          <span>Fanbox</span>
+          <small>Special Gallery</small>
+        </a>
+
+        <a class="link-button" href="https://x.com/mkakosan">
+          <span>X / Twitter</span>
+          <small>Social Media</small>
+        </a>
+      </nav>
+
+      <button class="secret-toggle" type="button" data-target="home" aria-expanded="true">
+        Back
+      </button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
