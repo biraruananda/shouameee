@@ -86,7 +86,7 @@ button {
 .profile-card {
   width: min(100%, 35rem);
   display: grid;
-  gap: 1.5rem;
+  gap: 1.8rem;
   justify-items: center;
   text-align: center;
   animation: enter 0.9s ease both;
@@ -100,8 +100,8 @@ button {
   position: relative;
   display: grid;
   place-items: center;
-  width: 7.5rem;
-  height: 7.5rem;
+  width: 8.5rem;
+  height: 8.5rem;
   border: 1px solid var(--line);
   border-radius: 999px;
   padding: 0.42rem;
@@ -148,7 +148,7 @@ button {
 h1,
 h2 {
   margin: 0;
-  font-size: clamp(2rem, 6vw, 3.1rem);
+  font-size: clamp(2.4rem, 6vw, 3.5rem);
   line-height: 0.95;
   font-weight: 600;
   letter-spacing: 0.04rem;
@@ -165,9 +165,9 @@ h2 {
 
 .link-panel {
   width: 100%;
-  padding: 1.25rem;
+  padding: 1.6rem;
   display: grid;
-  gap: 1rem;
+  gap: 1.15rem;
   border: 1px solid var(--line);
   border-radius: 1.25rem;
   background:
@@ -179,14 +179,14 @@ h2 {
 .link-button,
 .secret-toggle {
   width: 100%;
-  min-height: 3.5rem;
+  min-height: 4.25rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding: 0 1.25rem;
+  padding: 0 1.6rem;
   border: 1px solid rgba(255, 255, 255, 0.32);
-  border-radius: 0.8rem;
+  border-radius: 1rem;
   color: var(--text);
   background:
     linear-gradient(221deg, rgba(255, 255, 255, 0.14), transparent 92%),
@@ -230,14 +230,14 @@ h2 {
 
 .link-button span {
   display: block;
-  font-size: 1rem;
+  font-size: 1.08rem;
 }
 
 .link-button small {
   display: block;
   margin-top: 0.2rem;
   color: rgba(255, 255, 255, 0.58);
-  font-size: 0.78rem;
+  font-size: 0.85rem;
 }
 
 .secret-toggle {
